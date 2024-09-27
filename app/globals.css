@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.hero {
+  color: #13547ad4;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 2rem;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #ecf0f1;
+  padding: 0.7rem;
+  justify-content: center;
+  text-transform: capitalize;
+  max-width: 50vw;
+  margin: 1rem auto;
+}
+
+h2 {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  background-color: #485460;
+  color: #ecf0f1;
+  padding: 0.4rem;
+  text-transform: capitalize;
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-width: 30vw;
+  text-align: center;
+}
+
+.Link {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #c8d6e5;
+  margin: 1rem;
+  padding: 0.7rem 1.5rem;
+  min-width: 7rem;
+  transition: all ease-in-out 300ms;
+  border: 1px solid;
+  border-radius: 0.3rem;
+}
+
+.Home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  /* background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin: 1rem;
+  padding: 0.7rem 0.8rem;
+  transition: all ease-in-out 300ms;
+  border-radius: 0.3rem;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+.Link:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 300ms;
+  border: 1px solid #fff;
+}
+
+li {
+  margin: 1rem 0 0 1rem;
+}
+
+.cool-underline {
+  position: relative;
+}
+
+.cool-underline::after {
+  content: "";
+  height: 10px;
+  width: 100%;
+  background-color: #13547a99;
+  display: block;
+  position: absolute;
+  left: -8px;
+  width: 0;
+  bottom: 10px;
+  z-index: -1;
+  transform: skew(-21deg);
+  transition: all 1.5s ease-in;
+}
+
+.cool-underline.show-underLine::after {
+  width: calc(100% + 16px);
+}
