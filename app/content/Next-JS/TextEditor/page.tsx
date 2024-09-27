@@ -1,4 +1,3 @@
-import { TvMinimal } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -6,9 +5,7 @@ const TextEditor = () => {
   return (
     <>
       <h1 className="h1">Text Editor</h1>
-      <Link className="Home" href="/">
-        <TvMinimal color="#13547a" />
-      </Link>
+      <Link className='Link' href="/content/Next-JS">Back</Link>
       <h2>Visual Studio Code</h2>
       <h3>Extensions</h3>
       <ul>

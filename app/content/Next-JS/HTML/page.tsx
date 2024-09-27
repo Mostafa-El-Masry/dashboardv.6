@@ -1,13 +1,10 @@
-import { TvMinimal } from "lucide-react";
 import Link from "next/link";
 
 const HTML = () => {
   return (
     <>
       <h1 className="h1">HTML</h1>
-      <Link className="Home" href="/">
-        <TvMinimal color="#13547a" />
-      </Link>
+      <Link className='Link' href="/content/Next-JS">Back</Link>
       <p>The header Tag</p>
       <p>
         It contains the title , Meta tags &amp; links to other css pages. the

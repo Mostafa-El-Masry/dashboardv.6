@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "by Mostafa",
 };
 
-export default function CalendixLayout({
+export default function inventorymanagmentLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

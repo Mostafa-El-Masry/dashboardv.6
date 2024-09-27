@@ -1,4 +1,3 @@
-import { TvMinimal } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -6,9 +5,11 @@ const Finances = () => {
   return (
     <>
       <h1 className="h1">Finances</h1>
-      <Link className="Home" href="/">
-        <TvMinimal color="#13547a" />
-      </Link>
+      <div className="flex justify-evenly absolute left-0 top-0">
+        <Link className="Link" href="/content/Stable-living-situation">
+          Back
+        </Link>
+      </div>
       <h2>1st Financial Goal: Making 10K EGP a month</h2>
 
       <ul>

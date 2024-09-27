@@ -1,4 +1,3 @@
-import { TvMinimal } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -6,8 +5,8 @@ const CSSRefrencePage = () => {
   return (
     <>
       <h1 className="h1">CSS &amp; Tailwind Refrence Page</h1>
-      <Link className="Home" href="/">
-        <TvMinimal color="#13547a" />
+      <Link className="Link" href="/content/Next-JS">
+        Back
       </Link>
       <h2>Tricks</h2>
       <ul>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+
 const HomePage = () => {
   return (
     <main className="container">
@@ -11,7 +12,7 @@ const HomePage = () => {
           </div>
           <div className="flex md:flex-row max-sm:flex-col xs:flex-col content-evenly justify-evenly">
             <div className="Link">
-              <Link href="./content/work">All Things Work</Link>
+              <Link href="./content/work"> Work Any Thing</Link>
             </div>
             <div className="Link">
               <Link href="./content/Next-JS">
@@ -26,7 +27,10 @@ const HomePage = () => {
               </Link>
             </div>
             <div className="Link">
-              <Link href="./content/Apollo"> Apollo</Link>
+              <Link href="./content/Apollo">
+                {" "}
+                Apollo
+              </Link>
             </div>
             <div className="Link">
               <Link href="./content/Pressue-dreams"> Pressue dreams</Link>
