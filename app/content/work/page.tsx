@@ -6,9 +6,7 @@ const Work = () => {
     <>
       <h1 className="h1">Work</h1>
       <div className="flex justify-evenly absolute left-0 top-0">
-        <Link className="Link" href="/">
-          Home
-        </Link>
+      <Link href="/content/work/inventoryManagment"> Inventory Managment </Link>
       </div>
     </>
   );
